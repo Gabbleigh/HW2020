@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+navbar{
+    background-color: white;
+}
+.nav-link{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    background-color:white;
+}
+.navbar-brand{
+    font-size: 1.25rem;
+    font-weight: 800;
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.main{
+    background: url(/Images/2.png)no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 500;
+    color: white;
+}
+.main h6{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid;
+    width: 26.5%;
+}
+.main .bt1{
+    height:50px;
+    width: 130px;
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    outline: none;
+    border: 1px solid rgb(157, 143, 92);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt1:hover{
+    background-color: rgb(157, 143, 92);
+    transition: 0.5s;
+    color: rgb(17, 2, 14);
+}
+.main .bt2{
+    height:50px;
+    width: 130px;
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    outline: none;
+    border: 1px solid rgb(157, 143, 92);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt2:hover:hover{
+    background-color: rgb(157, 143, 92);
+    transition: 0.5s;
+    color: black;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.progress{
+    background-color: rgb(207, 205, 205);
+    justify-content: flex-start;
+    border-radius: 5px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 30px;
+    width: 100%;
+    font-weight: bold;
+    
+
+}
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 5px;
+    background-color:rgb(157, 143, 92);
+    height: 30px; 
+    width: 0;
+}
+.progress p{
+    color: black;
+    padding: 12px;
+}
+@keyframes load1 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width:90%;
+    }
+
+}
