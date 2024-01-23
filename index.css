@@ -37,13 +37,13 @@ navbar{
     color: white;
 }
 .main h6{
-    font-size: 1.4rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 70;
     color: white;
     text-transform: uppercase;
     line-height: 1;
     border-bottom: 3px solid;
-    width: 26.5%;
+    width: 33%;
 }
 .main .bt1{
     height:50px;
@@ -89,7 +89,7 @@ h1{
     height: 30px;
     width: 100%;
     font-weight: bold;
-    
+    color: white;
 
 }
 .pro-value1{
